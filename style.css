@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* 
+
+.work-sans-<uniquifier> {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+html,body{
+    width:100%;
+    height:100%;
+    background-color: rgb(5, 5, 5);
+    color:white;
+    font-family: "Work Sans", sans-serif;
+    
+}
+#main-body{
+    width:100%;
+    height:100%;
+    padding:2% 2% 0% 2%;
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+
+}
+
+#left-side{
+    padding:1% 1% 0% 1%;
+    gap:40px;
+    height: 95%;
+    width:25%;
+    background-color: rgb(25, 26, 27);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: normal;
+}
+#upper-sec{
+    height:25%;
+    width:100%;
+    background-color: rgb(33, 36, 39);
+    
+    padding:5% 2% 2% 5%;
+    line-height: 20px;
+    border-radius: 15px;;
+}
+#upper-sec a{
+    text-decoration: none;
+    color: white;
+}
+h2{
+    font-size: 17px;
+    font-weight: 430;
+}
+
+#lower-sec{
+    height:70%;
+    width:100%;
+    background-color: rgb(33, 36, 39);
+    margin:5% 0% 0% 0%;
+    padding:5% 5% 0% 5%;
+    border-radius:15px;
+}
+#low-upper{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#low-upper i{
+    font-size: 20px;
+}
+ /* Right Side Content Starts From Here */
+
+ #right-side{
+    width:71%;
+    height:95%;
+    margin:0% 2% 0% 1%;
+    padding:0.5%;
+    background-color: rgb(25, 26, 27);
+    border-radius:15px;
+ }
+
+ #right-up{
+    height:10%;
+    width:100%;
+    /* background-color:azure; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin:10px 0px 0px 0px; */
+    /* padding:10px 0px 0px 0px; */
+ }
+ #right-center{
+    height:45%;
+    width:100%;
+    /* background-color: rgb(75, 143, 202); */
+    background: linear-gradient(to top, black,rgba(255, 255, 255, 0.178));
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+ }
+ #right-down{
+    height:45%;
+    width:100%;
+    /* background-color: rgb(46, 78, 105); */
+    background: linear-gradient(to bottom, black, rgba(255, 255, 255, 0.205));
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+ }
+ #r-d-up{
+    height:10%;
+    display: flex;
+    font-weight: 300;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.5% 1.5% 1.5% 1.5%;
+    /* margin:1% 0% 0% 0%; */
+ }
+ #r-d-up h3{
+    font-size:19px;
+    font-weight: 450;
+ }
+
+ #r-c-up{
+    height:10%;
+    padding:1% 1.5% 0% 1.5%;
+    margin:0px 0px 0px 0px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ #r-u-right{
+    width:19%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5% 0% 5% 0%;
+
+ }
+ #r-u-left{
+    width:20%;
+ }
+ #r-u-left i{
+    font-size:40px;
+ }
+ #login{
+    /* margin:0% 1% 0% 0.9%; */
+    padding:3% 6% 3% 6%;
+    color:black;
+    background-color: white;
+    border-radius:15px;
+
+ }
+
+ #artist-list{
+    width:100%;
+   
+    height:80%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:15px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    margin: 0% 10% 0% 0%;
+
+ }
+ .artist:hover{
+    height: 100%;
+    /* width:20%; */
+    transition: ease-in-out;
+    /* background-color: aliceblue; */
+    background: linear-gradient(to top,rgba(231, 227, 227, 0.452),rgba(75, 53, 53, 0.205));
+    border-radius: 11px;
+    padding:10px 10px 10px 10px;
+ }
+
+ #artist-list img{
+    width:160px;
+    height:160px;
+    border-radius:113px;
+ }
+
+ #albums{
+    height:80%;
+    width:inherit;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:10% 5% 8% 5%;
+    text-align: center;
+ }
+ #albums img{
+    border-radius:11px;
+    width: 180px;
+    height: 180px;
+    box-shadow: 5px 7px 10px rgb(37, 37, 39);
+ }
+#library{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap:10px;
+    line-height: 30px;
+    justify-content: center;
+}
+#duration{
+    width:100%;
+    height:5px;
+    color:rgb(20, 20, 31);
+    background-color: rgb(82, 80, 78);
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 11px;
+}
+ #library img{
+    align-content: center;
+    border-radius: 11px;
+ }
+ #library i{
+    font-size: 30px;
+    font-weight: 36;
+ }
+ #library p{
+    text-align: center;
+ }
